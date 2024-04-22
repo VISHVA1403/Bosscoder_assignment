@@ -1,0 +1,30 @@
+.videocard{
+    background-color:#fff;
+    display:grid;
+    max-width: fit-content;
+    padding: 10px;
+}
+.container{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px ;
+    background-color: rgb(1, 1, 48);
+
+}
+.details img{
+    max-height: 30px;
+}
+.info h4{
+ font-family: 'Courier New', Courier, monospace;
+ color: aliceblue;
+}
+.duration ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+/* .duration ul li{
+    margin-left: 15px;
+} */

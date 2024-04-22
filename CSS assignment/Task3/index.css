@@ -1,0 +1,125 @@
+
+body{
+    margin: 0;
+    font-family:Arial,sans-serif;
+}
+header{
+    background-color:#333;
+    color: #fff;
+    padding: 10px 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: None;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li{
+    margin-left: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: small;
+}
+nav ul li a:hover{
+    background-color: #555;
+}
+.logo img {
+    max-height: 60px; /* Set maximum height for the logo */
+  }
+.right{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.searchbar input[type="text"],.searchbar button{
+    padding: 8px;
+    /* background-color: #060606; */
+}
+.left{
+    align-items: center;
+    display: flex;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.icon img{
+    height: 40px;
+    margin: 0 10px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+  }
+ 
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+ 
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+ 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
+  .dropbtn {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+  }
+  .videocard{
+    background-color:#fff;
+    display:grid;
+    max-width: fit-content;
+    padding: 10px;
+}
+.container{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px ;
+    background-color: rgb(1, 1, 48);
+
+}
+.details img{
+    max-height: 30px;
+}
+.info h4{
+ font-family: 'Courier New', Courier, monospace;
+ color: aliceblue;
+}
+.duration ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
